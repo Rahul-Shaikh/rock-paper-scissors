@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #292C34;
+}
+
+header > h1 {
+    background-color: white;
+    padding: 30px;
+    color: #24272E;
+    text-align: center;
+    font-family: 'Asap', sans-serif;
+}
+
+.score-board {
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 200px;
+    margin: 20px auto;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px 20px;
+    font-family: 'Asap', sans-serif;
+    position: relative;
+}
+
+.label {
+    background-color: #E2584D;
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+    font-family: 'Asap', sans-serif;
+}
+
+#user-label {
+    position: absolute;
+    top: 15px;
+    left: -20px;
+}
+
+#comp-label {
+    position: absolute;
+    top: 15px;
+    right: -20px;
+}
+
+.result {
+    font-size: 40px;
+    font-family: 'Asap', sans-serif;
+    color: rgb(214, 205, 205);
+    text-align: center;
+    font-weight: bold;
+}
+
+.buttons {
+    margin: 50px 0px 20px 0px;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    border: 5px solid rgb(248, 205, 148);
+    vertical-align: middle;
+    position: relative;
+    border-radius: 50%;
+    margin: 10px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.images {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#message {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+}
+
+.button:hover {
+    cursor: pointer;
+    background: #1c1b20;
+}
